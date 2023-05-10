@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #fbf8f6;
+	height: 100vh;
+	width: 100vw;
+}
+
+main{
+	position: relative;
+	height: 80%;
+	width: 70%;
+	top: 10%;
+	left: 15%;
+	background: rgba(129, 132, 134, 0.6);
+	border-radius: 3%;
+}
+
+.h1-style{
+	text-align: center;
+	font-size: 5rem;
+	font-family: monospace;
+	font-weight: 500;
+	color: white;
+	text-decoration: important;
+}
+
+form{
+	text-align: center;
+	margin-bottom: 1.5rem;
+	
+}
+
+input{
+	color: rgb(125, 123, 123);
+	text-align: center;
+	font-family: unset;
+	background: #f8f9fa;
+	width: 50%;
+	height: 30%;
+}
+
+.submit-button{
+	background: rgb(158, 13, 42);
+	color: white;
+	font-size: 1.1rem;
+	border: none;
+	/* border-radius: 5%; */
+}
+.submit-button a{
+	text-decoration: none;
+	/* color: lightgrey; */
+	font-size: 0.8rem;
+}
+
+
+hr{
+	color: white;
+}
+
+/* #files-container{
+	/* width: 40%;
+	height: 50%; */
+	/* overflow: auto; */
+	/* background: rgba(241, 237, 237, 0.2); */
+	/* margin: auto; */
+
+.file{
+	width: 90%;
+	height: 20%;
+	margin: auto;
+	border: 1px solid black; 
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-between; 
+	padding: 1rem;
+	
+}
+.a{
+	text-decoration: none;
+	color: rgb(252, 246, 246);
+	margin-top: 0.1rem;
+	padding:3px 5px;
+}
+
+.file-name{
+	color: rgb(255, 255, 255);
+	width: 75%;
+	padding:5px 5px;
+}
+
+.file-open-button{
+	background: rgb(7, 91, 39);
+	text-align: center;
+	width: 12%;
+	padding:4px 5px;
+	margin-right: 20px;
+}
+
+
+.file-open-button a{
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 0.8rem;
+}
+
+.delete{
+	background: rgb(158, 13, 42);
+	text-align: center;
+	width: 15%;
+	padding:4px 5px;
+	margin-right: 20px;
+} 
+
+.delete a{
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 0.8rem;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width:600px) {
+	html{
+		font-size: 9px;
+	}
+	main{
+	    height: 80%;
+	    width: 90%;
+	    top: 5%;
+	    left: 5%;
+	}
+	#files-container{
+		width: 80%;
+	}
+	.file{
+		width: 90%;
+		height: 15%;
+		padding: 1.2rem;
+	}
+	.file-open-button a{
+		font-size: 0.8rem;
+	}
+
+	.file-open-button{
+		width: 3rem;
+		height: 2rem;
+		padding-top: 0.2rem;
+	}
+	.h1-style{
+		margin-top: 1rem;
+	}
+}
